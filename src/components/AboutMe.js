@@ -8,15 +8,15 @@ function AboutMe() {
         <div id="avatar">
             <img 
             id="profileAvatar"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO3IdcslE8nXeq6Yfeq5hQVKKx43hOFRKxgA&usqp=CAU" 
+            src="https://th.bing.com/th/id/OIP.kfw9TxTpYu3RwKawludZjwHaHa?pid=ImgDet&rs=1" 
             alt=""/>
-            <h4>Alex Wilkisnon</h4>            
+            <h4>Kaylon Myers</h4>            
         </div>            
             
             {/* <!-- ABOUT ME SECTION --> */}
         <div id="aboutMe">
             <h1>About me</h1>
-            <p>Building highest quality websites and applications with HTML CCS and JavaScript</p>
+            <p>Creating ideas that stand out and building applications that change the </p>
         </div>  
 
             {/* <!-- PREVIOUS WORKS TITLE  --> */}
@@ -26,9 +26,15 @@ function AboutMe() {
 
             {/* <!-- PERVIOUS WORK --> */}
         <div id="work">
-          <div>Project goes here</div>
-          <div>Project goes here</div>
-          <div>Project goes here</div>
+        <a href="https://github.com/bravenbright/WeatherMe.git" target="_blank" rel="noopener noreferrer">
+            <div>WeatherMe</div>
+        </a>
+        <a href="https://github.com/TMortara/Travel-Blog.git" target="_blank" rel="noopener noreferrer">
+            <div>Travel Blog</div>
+        </a>
+        <a href="https://github.com/kaylonm17/Aim-Trainer.git" target="_blank" rel="noopener noreferrer">
+            <div>Aim Trainer</div>
+        </a>
         </div>
 </div>
 </div>

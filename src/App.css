@@ -21,11 +21,11 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(143, 139, 139);
 }
 
 .App-link {
-  color: #61dafb;
+  color: #e01111;
 }
 
 @keyframes App-logo-spin {
@@ -53,21 +53,21 @@ grid-template-columns: 300px 1fr;
 }
 
 #avatar, #aboutMe, #previousWorksTitle {
-  background-color: beige;
+  background-color: rgb(194, 177, 177);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 #aboutMe  {
-  background: lightblue
+  background: rgb(224, 142, 142)
 }
 
 #previousWorksTitle {
   background-color: rgb(176, 159, 162);
 }
 #work {
-  background-color: rgb(159, 242, 219);
+  background-color: rgb(241, 70, 70);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -88,4 +88,20 @@ img {
   width: 200px;
   border-radius: 100%;
   
+}
+
+#work a {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+#work a:hover {
+  background-color: #333;
+  color: #fff;
 }

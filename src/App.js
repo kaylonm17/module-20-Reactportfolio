@@ -1,17 +1,17 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import PortNavbar from './components/PortNavbar';
-import PortJumbotron from './components/PortJumbotron';
-import AboutMe from './components/aboutMe';
-import ContactMe from './components/ContactMe';
+import Navbarport from './components/Navbarport';
+import Jumbotronport from './components/Jumbotronport';
+import AboutMe from './components/AboutMe';
+import ContactMe from './components/Contact';
 
 function App() {
   return (
     <div className="App">
       {/* NAVBAR */}
-      <PortNavbar />
+      <Navbarport/>
       {/* JUMBOTRON */}
-      <PortJumbotron />
+      <Jumbotronport />
       {/* ABOUT ME */}
       <AboutMe/>
       {/* CONTACT ME */}
